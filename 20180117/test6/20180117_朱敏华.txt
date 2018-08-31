@@ -1,0 +1,290 @@
+    1  ping www.baidu.com
+    2  su
+    3  sudo passwd root
+    4  su
+    5  ping www.baidu.com
+    6  ifconfig
+    7  route
+    8  pwd
+    9  vim file1
+   10  gcc file1
+   11  vim file1
+   12  gcc file1
+   13  ls -l
+   14  echo file1>>file2
+   15  cat file2
+   16  cat file1
+   17  cp file1 file2
+   18  cat file2
+   19  clear
+   20  pwd
+   21  cp file1 file3.c
+   22  gcc file3
+   23  cat file1
+   24  cat file1>file2
+   25  cat file2
+   26  pwd
+   27  ls|wc -l
+   28  head -n 2 file1
+   29  tail -n 2 file1
+   30  tail -n 4 file1
+   31  umask 001
+   32  ls -l
+   33  chmod 721
+   34  chmod 721 file1
+   35  ls -l
+   36  find /usr/include/ -name stdio.h
+   37  . .bashrc
+   38  clear
+   39  pwd
+   40  ls ..
+   41  pwd
+   42  ls..
+   43  pwd
+   44  ls ..
+   45  pwd
+   46  cd /home/
+   47  pwd
+   48  touch .vimrc
+   49  su
+   50  ls -l
+   51  pwd
+   52  vim test.txt
+   53  ls -l
+   54  vim file1
+   55  vim test.txt 
+   56  ls -l
+   57  vim test.txt 
+   58  la -l
+   59  vim test.txt 
+   60  cat file3
+   61* cat file1
+   62  vim +3 file1
+   63  vim +/printf file1
+   64  vim test.txt 
+   65  vim file1
+   66  vim file2
+   67  cp file1 main.c
+   68  cat main.c 
+   69  cp main.c main1.c
+   70  cat
+   71  grep printf *.c
+   72  sed 's/printf/puts/g' main.c
+   73  sed -i 's/printf/puts/g' main.c
+   74  cat main.c
+   75  sed -i 's/printf/g' *.c
+   76  sed -i 's/printf/puts/g' *.c
+   77  cat main1.c
+   78  grep printf *.c
+   79  cleas
+   80  rclear
+   81  clear
+   82  ll
+   83  alias
+   84  vim file1
+   85  gcc file1
+   86  ./a.out
+   87  vim file1
+   88  gcc file1
+   89  vim file1
+   90  gcc file1
+   91  pwd
+   92  cat main.c
+   93  gcc main.c
+   94  ./a.out
+   95  ls
+   96  ls -a
+   97  ./a.out
+   98  vim file1
+   99  pwd
+  100  rm main.c
+  101  cat main.c
+  102  vim main.c
+  103  mkdir 20170117
+  104  ls
+  105  mkdir 20180117
+  106  cd 20180117/
+  107  vim main.c
+  108  gcc 
+  109  gcc main.c 
+  110  vim main.c
+  111  gcc main.c 
+  112  cat main.c
+  113  pwd
+  114  ls -l
+  115  ls -a
+  116  ./a.out 
+  117  vim main.c
+  118  gcc main.c 
+  119  ./a.out 
+  120  gcc -E main.c -o main.i
+  121  vim main.i
+  122  gcc -S main.i -o main.s
+  123  vim main.s
+  124  as main.s -o main.o
+  125  nm main.o
+  126  gcc main.o -o main
+  127  ll
+  128  ls
+  129  cd dir1
+  130  mkdir dir1
+  131  cd dir1
+  132  ls
+  133  vim fun.h
+  134  cd ..
+  135  ls 
+  136  cp main.c mian_h.c
+  137  vim main_h.c
+  138  cp main.c main_h.c
+  139  vim main_h.c
+  140  gcc main_h.c
+  141  gcc main_h.c -l dir1
+  142  gcc main_h.c -ldir1
+  143  gcc main_h.c -|dir1
+  144  gcc main_h.c -Idir1
+  145  gcc main_h.c -I dir1
+  146  cd dir
+  147  mkdir dir1
+  148  cd dir1
+  149  cd ..
+  150  gcc main_h.c -I dir1
+  151  cd dir1
+  152  vim func.h
+  153  cd ..
+  154  gcc main_h.c -I dir1
+  155  rm fun.h
+  156  ls
+  157  cd dir1
+  158  la
+  159  ls
+  160  rm fun.h
+  161  ls
+  162  ls -l
+  163  ll
+  164  ls 
+  165  cd ..
+  166  ls
+  167  ls -l
+  168  vum ~/.bashrc 
+  169  vim ~/.bashrc 
+  170  ll
+  171  mkdir libso
+  172  ls
+  173  vim add.c
+  174  gcc -fpIc -wall -c add.c
+  175  gcc -fplc -wall -c add.c
+  176  gcc -fplc -Wall -c add.c
+  177  gcc -fpIc -Wall -c add.c
+  178  gcc -fPIC -Wall -c add.c
+  179  ls
+  180  gcc -shared add.o -o libadd.
+  181  gcc
+  182  gcc -shared add.o -o libadd.so
+  183  ll
+  184  ./l
+  185  ./libadd.so 
+  186  sudo cp libadd.so /usr/lib/
+  187  ll /usr/lib/liadd.so
+  188  ll /usr/lib/libadd.so
+  189  cd ..
+  190  cd 20180117/
+  191  mkdir test
+  192  cd test/
+  193  ls
+  194  vim maiin.c
+  195  mv maiin.c  main.c
+  196  rm maiin.
+  197  rm maiin.c
+  198  cat main,c
+  199  cat  maiin.c
+  200  vim main.c
+  201  gcc main.c
+  202  gcc main.c -ladd
+  203  ./a.out 
+  204  ls
+  205  vim main.c
+  206  ./a.out 
+  207  gcc main.c -ladd
+  208  ./a.out 
+  209  clear
+  210  vim multi
+  211  vim main.c
+  212  gcc -fPIC -Wall -c nulti
+  213  gcc -fPIC -Wall -c multi
+  214  vim multi
+  215  cat main,c
+  216  vim multi
+  217  gcc main.c -l multi
+  218  vim multi
+  219  gcc -fPIC -Wall -c multi
+  220  vim multi
+  221  gcc -fPIC -Wall -c multi
+  222  vim multi
+  223  gcc -fPIC -Wall -c multi
+  224  cd..
+  225  cd ..
+  226  mkdir test2
+  227  cd test2
+  228  vim multi.c
+  229  gcc -fPIC -Wall -c multi
+  230  cd ..
+  231  cd test2
+  232  gcc -fPIC -Wall -c multi.c
+  233  ls
+  234  gcc -shared multi.o -o libadddso
+  235  gcc -shared multi.o -o libaddd.so
+  236  gcc -shared multi.o -o libmulti.so
+  237  ./lib
+  238  ./libmulti.so 
+  239  ll
+  240  sudo cp libmulti.so  /usr/lib/
+  241  ll
+  242  ll /usr/lib/
+  243  ll /usr/lib/libmulti.so 
+  244  cd ..
+  245  ll
+  246  ls
+  247  cd test2
+  248  mkdir test3
+  249  ls
+  250  cd test3
+  251  vim main.c
+  252  gcc main.c
+  253  gcc main.c -l multi
+  254  ./a.out 
+  255  vim main.c
+  256  gcc main.c -l multi
+  257  ./a.out 
+  258  cd ..
+  259  vim multi.c 
+  260  gcc main.c -l multi
+  261  gcc -f
+  262  gcc -fPIC -Wall -c multi.c
+  263  gcc -shared multi.so -o libmulti.so
+  264  gcc -fPIC -Wall -c multi.c
+  265  ls
+  266  gcc -shared multi.so -o libmulti.so
+  267  rm libmulti.so 
+  268  gcc -shared multi.so -o libmulti.so
+  269  cd ..
+  270  mkdir test6
+  271  cd test6
+  272  vim multi.c
+  273  gcc multi.c 
+  274  gcc -fPIC -Wall -c multi.c
+  275  ls
+  276  gcc -shared multi.o -o libmulti.so
+  277  ls
+  278  sudo cp libadd.so /usr/lib
+  279  sudo cp libmulti.so /usr/lib
+  280  cd ..
+  281  ls /usr/lib/libmulti.so 
+  282  cd test6
+  283  vim main.c
+  284  gcc main.c -l multi
+  285  ./a.out 
+  286  history
+  287  history >20180117_朱敏华
+  288  history >20180117_朱敏华.txt
+  289  clear
+  290  history >20180117_朱敏华.txt

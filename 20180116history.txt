@@ -1,0 +1,810 @@
+    1  ping www.baidu.com
+    2  su
+    3  sudo passwd root
+    4  su
+    5  ping www.baidu.com
+    6  ifconfig
+    7  route
+    8  pwd
+    9  vim file1
+   10  gcc file1
+   11  vim file1
+   12  gcc file1
+   13  ls -l
+   14  echo file1>>file2
+   15  cat file2
+   16  cat file1
+   17  cp file1 file2
+   18  cat file2
+   19  clear
+   20  pwd
+   21  cp file1 file3.c
+   22  gcc file3
+   23  cat file1
+   24  cat file1>file2
+   25  cat file2
+   26  pwd
+   27  ls|wc -l
+   28  head -n 2 file1
+   29  tail -n 2 file1
+   30  tail -n 4 file1
+   31  umask 001
+   32  ls -l
+   33  chmod 721
+   34  chmod 721 file1
+   35  ls -l
+   36  find /usr/include/ -name stdio.h
+   37  . .bashrc
+   38  clear
+   39  pwd
+   40  ls ..
+   41  pwd
+   42  ls..
+   43  pwd
+   44  ls ..
+   45  pwd
+   46  cd /home/
+   47  pwd
+   48  touch .vimrc
+   49  su
+   50  ls -l
+   51  pwd
+   52  vim test.txt
+   53  ls -l
+   54  vim file1
+   55  vim test.txt 
+   56  ls -l
+   57  vim test.txt 
+   58  la -l
+   59  vim test.txt 
+   60  cat file3
+   61  cat file1
+   62  vim +3 file1
+   63  vim +/printf file1
+   64  vim test.txt 
+   65  vim file1
+   66  vim file2
+   67  cp file1 main.c
+   68  cat main.c 
+   69  cp main.c main1.c
+   70  cat
+   71  grep printf *.c
+   72  sed 's/printf/puts/g' main.c
+   73  sed -i 's/printf/puts/g' main.c
+   74  cat main.c
+   75  sed -i 's/printf/g' *.c
+   76  sed -i 's/printf/puts/g' *.c
+   77  cat main1.c
+   78  grep printf *.c
+   79  cleas
+   80  rclear
+   81  clear
+   82  ll
+   83  alias
+   84  vim file1
+   85  gcc file1
+   86  ./a.out
+   87  vim file1
+   88  gcc file1
+   89  vim file1
+   90  gcc file1
+   91  pwd
+   92  cat main.c
+   93  gcc main.c
+   94  ./a.out
+   95  ls
+   96  ls -a
+   97  ./a.out
+   98  vim file1
+   99  pwd
+  100  rm main.c
+  101  cat main.c
+  102  vim main.c
+  103  mkdir 20170117
+  104  ls
+  105  mkdir 20180117
+  106  cd 20180117/
+  107  vim main.c
+  108  gcc 
+  109  gcc main.c 
+  110  vim main.c
+  111  gcc main.c 
+  112  cat main.c
+  113  pwd
+  114  ls -l
+  115  ls -a
+  116  ./a.out 
+  117  vim main.c
+  118  gcc main.c 
+  119  ./a.out 
+  120  gcc -E main.c -o main.i
+  121  vim main.i
+  122  gcc -S main.i -o main.s
+  123  vim main.s
+  124  as main.s -o main.o
+  125  nm main.o
+  126  gcc main.o -o main
+  127  ll
+  128  ls
+  129  cd dir1
+  130  mkdir dir1
+  131  cd dir1
+  132  ls
+  133  vim fun.h
+  134  cd ..
+  135  ls 
+  136  cp main.c mian_h.c
+  137  vim main_h.c
+  138  cp main.c main_h.c
+  139  vim main_h.c
+  140  gcc main_h.c
+  141  gcc main_h.c -l dir1
+  142  gcc main_h.c -ldir1
+  143  gcc main_h.c -|dir1
+  144  gcc main_h.c -Idir1
+  145  gcc main_h.c -I dir1
+  146  cd dir
+  147  mkdir dir1
+  148  cd dir1
+  149  cd ..
+  150  gcc main_h.c -I dir1
+  151  cd dir1
+  152  vim func.h
+  153  cd ..
+  154  gcc main_h.c -I dir1
+  155  rm fun.h
+  156  ls
+  157  cd dir1
+  158  la
+  159  ls
+  160  rm fun.h
+  161  ls
+  162  ls -l
+  163  ll
+  164  ls 
+  165  cd ..
+  166  ls
+  167  ls -l
+  168  vum ~/.bashrc 
+  169  vim ~/.bashrc 
+  170  ll
+  171  mkdir libso
+  172  ls
+  173  vim add.c
+  174  gcc -fpIc -wall -c add.c
+  175  gcc -fplc -wall -c add.c
+  176  gcc -fplc -Wall -c add.c
+  177  gcc -fpIc -Wall -c add.c
+  178  gcc -fPIC -Wall -c add.c
+  179  ls
+  180  gcc -shared add.o -o libadd.
+  181  gcc
+  182  gcc -shared add.o -o libadd.so
+  183  ll
+  184  ./l
+  185  ./libadd.so 
+  186  sudo cp libadd.so /usr/lib/
+  187  ll /usr/lib/liadd.so
+  188  ll /usr/lib/libadd.so
+  189  cd ..
+  190  cd 20180117/
+  191  mkdir test
+  192  cd test/
+  193  ls
+  194  vim maiin.c
+  195  mv maiin.c  main.c
+  196  rm maiin.
+  197  rm maiin.c
+  198  cat main,c
+  199  cat  maiin.c
+  200  vim main.c
+  201  gcc main.c
+  202  gcc main.c -ladd
+  203  ./a.out 
+  204  ls
+  205  vim main.c
+  206  ./a.out 
+  207  gcc main.c -ladd
+  208  ./a.out 
+  209  clear
+  210  vim multi
+  211  vim main.c
+  212  gcc -fPIC -Wall -c nulti
+  213  gcc -fPIC -Wall -c multi
+  214  vim multi
+  215  cat main,c
+  216  vim multi
+  217  gcc main.c -l multi
+  218  vim multi
+  219  gcc -fPIC -Wall -c multi
+  220  vim multi
+  221  gcc -fPIC -Wall -c multi
+  222  vim multi
+  223  gcc -fPIC -Wall -c multi
+  224  cd..
+  225  cd ..
+  226  mkdir test2
+  227  cd test2
+  228  vim multi.c
+  229  gcc -fPIC -Wall -c multi
+  230  cd ..
+  231  cd test2
+  232  gcc -fPIC -Wall -c multi.c
+  233  ls
+  234  gcc -shared multi.o -o libadddso
+  235  gcc -shared multi.o -o libaddd.so
+  236  gcc -shared multi.o -o libmulti.so
+  237  ./lib
+  238  ./libmulti.so 
+  239  ll
+  240  sudo cp libmulti.so  /usr/lib/
+  241  ll
+  242  ll /usr/lib/
+  243  ll /usr/lib/libmulti.so 
+  244  cd ..
+  245  ll
+  246  ls
+  247  cd test2
+  248  mkdir test3
+  249  ls
+  250  cd test3
+  251  vim main.c
+  252  gcc main.c
+  253  gcc main.c -l multi
+  254  ./a.out 
+  255  vim main.c
+  256  gcc main.c -l multi
+  257  ./a.out 
+  258  cd ..
+  259  vim multi.c 
+  260  gcc main.c -l multi
+  261  gcc -f
+  262  gcc -fPIC -Wall -c multi.c
+  263  gcc -shared multi.so -o libmulti.so
+  264  gcc -fPIC -Wall -c multi.c
+  265  ls
+  266  gcc -shared multi.so -o libmulti.so
+  267  rm libmulti.so 
+  268  gcc -shared multi.so -o libmulti.so
+  269  cd ..
+  270  mkdir test6
+  271  cd test6
+  272  vim multi.c
+  273  gcc multi.c 
+  274  gcc -fPIC -Wall -c multi.c
+  275  ls
+  276  gcc -shared multi.o -o libmulti.so
+  277  ls
+  278  sudo cp libadd.so /usr/lib
+  279  sudo cp libmulti.so /usr/lib
+  280  cd ..
+  281  ls /usr/lib/libmulti.so 
+  282  cd test6
+  283  vim main.c
+  284  gcc main.c -l multi
+  285  ./a.out 
+  286  history
+  287  history >20180117_朱敏华
+  288  history >20180117_朱敏华.txt
+  289  clear
+  290  history >20180117_朱敏华.txt
+  291  exit
+  292  pwd
+  293  ls -s .bashrc
+  294  ls -a .bashrc
+  295  vim .bashrc
+  296  ifconfig
+  297  route
+  298  mkdir 20180118
+  299  cd 20180118
+  300  vim test 
+  301  cd 20180117
+  302  ls 
+  303  cd ..
+  304  cd 20180118
+  305  ls
+  306  mkdir softlink
+  307  ls
+  308  mv *.txt softlink/
+  309  ls
+  310  mkdir define
+  311  cd define/
+  312  vim main.c
+  313  gcc main.c 
+  314  ls 
+  315  ./a.out 
+  316  gcc -E main.c -o main.i
+  317  vim main.i 
+  318  vim main.c
+  319  cd ..
+  320  mkdir 20180119
+  321  cd 20180119
+  322  vim mkdir
+  323  ls
+  324  rm mkdir
+  325  ls
+  326  vim mkdir.c
+  327  mkdir opendir
+  328  cd opendir
+  329  vim opendir.c
+  330  man 2 mkdir
+  331  man 2 rmdir
+  332  ls
+  333  cd 20180119
+  334  ls
+  335  cd finddir/
+  336  ls
+  337  vim finddir.c 
+  338  cd 20180119
+  339  LS
+  340  ls
+  341  vim opendir/
+  342  vim opendir
+  343  rm opendir/
+  344  rm mkdir.c 
+  345  ls
+  346  vim main.c
+  347  gcc main.c 
+  348  ls
+  349  ./a.out 
+  350  ls
+  351  gdb a.out 
+  352  gcc -g main.c 
+  353  gdb a.out 
+  354  gcc -E main.c  -o main.i
+  355  ls
+  356  vim main.i
+  357  gcc -S main.i  -o main.s
+  358  ls
+  359  vim main.s
+  360  gcc -g -S main.s -o main.s
+  361  gcc -g -S main.i -o main.s
+  362  vim main.s
+  363  ls
+  364  gcc -c main.c
+  365  ls
+  366  gcc -g -c main.c
+  367  ls
+  368  gcc main.o -o main1
+  369  vim main1
+  370  gdb main1
+  371  mkdir
+  372  mkdir mkdie
+  373  rm mkdie/
+  374  mkdir mkdir
+  375  ls
+  376  vim mkdir
+  377  man 2 mkdir
+  378  vim mkdir
+  379  rm die
+  380  rm mkdie
+  381  ls
+  382  mkdir mkdie
+  383  rm mkdie
+  384  ls
+  385  rmdir mkdie
+  386  ls
+  387  man 2 mkdir
+  388  vim mkdir.c
+  389  gcc mkdir
+  390  gcc mkdir.c
+  391  ls
+  392  mv * mkdir
+  393  ls
+  394  cd mkdir/
+  395  ls
+  396  ./a
+  397  ./a.out 
+  398  ./a.out test
+  399  ll
+  400  umask
+  401  umask 022
+  402  ll
+  403  umask 022
+  404  ./a.out  test
+  405  ./a.out  test1
+  406  ll
+  407  cp mkdir.c  rmdir.c
+  408  vim rmdir.c 
+  409  gcc rmdir.c -o rmdir
+  410  vim rmdir.c 
+  411  gcc rmdir.c -o rmdir
+  412  ./rmdir test
+  413  ./rmdir test1
+  414  cd ..
+  415  mkdir opendir
+  416  cd opendir
+  417  vim opendir.c
+  418  gcc opendir.c 
+  419  ls
+  420  vim opendir.c 
+  421  gcc opendir.c 
+  422  vim opendir.c 
+  423  gcc opendir.c 
+  424  vim opendir.c 
+  425  gcc opendir.c 
+  426  ./a.out  .
+  427  ls
+  428  ll
+  429  cd .
+  430  ls -i
+  431  cd ..
+  432  ls -i
+  433  ls -ia
+  434  cd ..
+  435  ls -i
+  436  cd 20180119
+  437  vim file1
+  438  ls -io
+  439  ls -il
+  440  ls -ial
+  441  ln file1 file2
+  442  ls -il
+  443  vim file2
+  444  rm fiel1
+  445  rm file1
+  446  ls -il
+  447  vim file2
+  448  ./a.out
+  449  ls
+  450  cd opendir
+  451  ls
+  452  ./a
+  453  ./a.out 
+  454  ./a.out .
+  455  vim opendir.c 
+  456  cd -
+  457  pwd
+  458  mkdir finddir
+  459  ls
+  460  cp opendir/opendir.c  finddir/
+  461  ls
+  462  cd f
+  463  cd finddir/
+  464  ls
+  465  mv opendir.c  finddir.c
+  466  ls
+  467  vim finddir.c 
+  468  vim finddir.c 
+  469  gcc finddir.c 
+  470  ./a.out 
+  471  ./a.out  .
+  472  vim finddir.c 
+  473  ./a.out  .
+  474  gcc finddir.c 
+  475  vim finddir.c 
+  476  gcc finddir.c 
+  477  ./a.out  .
+  478  gcc finddir.c 
+  479  ./a.out  .
+  480  vim finddir.c 
+  481  gcc finddir.c 
+  482  ./a.out  .
+  483  vim finddir.c 
+  484  gcc finddir.c 
+  485  ./a.out  .
+  486  mkdir test
+  487  ./a.out  .
+  488  touch test/file
+  489  vim finddir.c 
+  490  vim printf.c
+  491  gcc printf.c 
+  492  vim printf.c
+  493  gcc printf.c 
+  494  ls
+  495  ./a.out 
+  496  vim printf.c
+  497  gcc printf.c 
+  498  ./a.out 
+  499  vim printf.c
+  500  vim finddir.c 
+  501  gcc printf.c 
+  502  ./a.out 
+  503  ./a.out .
+  504  ls
+  505  ./a.out .
+  506  gcc finddir.c 
+  507  vim finddir.c 
+  508  gcc finddir.c 
+  509  vim finddir.c 
+  510  vim printf.c 
+  511  gcc printf.c 
+  512  vim printf.c 
+  513  gcc printf.c 
+  514  ./a.out 
+  515  vim printf.c 
+  516  vim f
+  517  rm f
+  518  vim finddir.c 
+  519  gcc finddir.c 
+  520  vim finddir.c 
+  521  gcc finddir.c 
+  522  ./a.out 
+  523  ./a.out .
+  524  ls
+  525  ./a.out /etc
+  526  vim finddir.c 
+  527  gcc finddir.c 
+  528  ./a.out 
+  529  ./a.out .
+  530  ./a.out /etc
+  531  vim finddir.c 
+  532  gcc finddir.c 
+  533  vim finddir.c 
+  534  gcc finddir.c 
+  535  vim finddir.c 
+  536  gcc finddir.c 
+  537  ./a.out .
+  538  ./a.out /etc
+  539  ls
+  540  vim finddir.c 
+  541  cd ..
+  542  mkdir search
+  543  cd search
+  544  vim search.c
+  545  cd ..
+  546  cd finddir/
+  547  cp finddir.c  search.c
+  548  cd search.c
+  549  ls
+  550  cp finddir.c ../search/search.c
+  551  cd ..
+  552  cd search
+  553  ls
+  554  vim search.c 
+  555  ls -i
+  556  d ..
+  557  cd ..
+  558  mkdir stat
+  559  cd stat/
+  560  vim stat.c
+  561  gcc stat.c 
+  562  vim stat.c
+  563  gcc stat.c 
+  564  vim stat.c
+  565  gcc stat
+  566  gcc stat.c
+  567  vim stat.c
+  568  gcc stat.c
+  569  ls
+  570  ./a.out .
+  571  vim stat.c
+  572  ls -l
+  573  ./a.out .
+  574  cd ..
+  575  mkdir ls_l
+  576  ls
+  577  cd ls_l/
+  578  vim ls_l.c
+  579  cd ..
+  580  ls
+  581  cd stat/
+  582  cp stat.c ../ls_l/ls_l.c 
+  583  cd ls_l.c
+  584  cd ..
+  585  cd ls_l/ls_l.c
+  586  cd ls_l/
+  587  vim ls_l.c 
+  588  ls -l
+  589  cd ..
+  590  ls -l
+  591  cd ls_l/
+  592  vim ls_l.c 
+  593  gcc ls_l.c 
+  594  ls
+  595  ./a.out 
+  596  ./a.out .
+  597  vim ls_l.c 
+  598  gcc ls_l.c 
+  599  ls
+  600  ./a.out .
+  601  vim ls_l.c 
+  602  cd  ..
+  603  ls
+  604  cd finddir/
+  605  ls
+  606  vim finddir.c 
+  607  cd..
+  608  cd ..
+  609  ls
+  610  cd stat/
+  611  ls
+  612  vim stat.c 
+  613  cd ..
+  614  ls 
+  615  cd file2
+  616  vim file2
+  617  mkdir open
+  618  cd open
+  619  vim fopen.c
+  620  rm fopen.c 
+  621  vim open.c
+  622  gcc open.c 
+  623  ls
+  624  ./a.out 
+  625  ./a.out .
+  626  ll
+  627  gcc open.c 
+  628  ll
+  629  vim open.c 
+  630  gcc open.c 
+  631  ll
+  632  umode 002
+  633  umask 002
+  634  gcc open.c 
+  635  ll 
+  636  touch file1
+  637  ll
+  638  gcc open.c 
+  639  ll 
+  640  vim open.c 
+  641  cd ..
+  642  history>20180119_朱敏华.txt
+  643  xit
+  644  exit
+  645  clear
+  646  ls
+  647  cd 20180119
+  648  ls
+  649  cd open
+  650  ls
+  651  vim open.c 
+  652  gcc open.c 
+  653  vim open.c 
+  654  gcc open.c 
+  655  vim open.c 
+  656  gcc open.c 
+  657  vim open.c 
+  658  gcc open.c 
+  659  vim open.c 
+  660  gcc open.c 
+  661  ls
+  662  ./a.out file2
+  663  ls
+  664  ls -l
+  665  vim file1
+  666  vim file2
+  667  ls -l
+  668  ls
+  669  ./a.out file2
+  670  ls -l
+  671  vim open.c 
+  672  gcc open.c 
+  673  ls
+  674  ./a.out file3
+  675  vim open.c 
+  676  gcc open.c 
+  677  vim open.c 
+  678  gcc open.c 
+  679  vim open.c 
+  680  gcc open.c 
+  681  ls
+  682  ./a.out file1
+  683  exit
+  684  ls -a .bashrc 
+  685  vim .bashrc 
+  686  ls
+  687  ls .viminfo
+  688  pwd
+  689  vim .vimrc
+  690  ls .vimrc
+  691  vim .vimrc
+  692  vim aaa
+  693  ls
+  694  rm 20170117/
+  695  rmdir 20170117/
+  696  ls
+  697  mkdir
+  698  cd 20180119
+  699  cd ..
+  700  mkdir 20180120
+  701  cd 20180120/
+  702  exit
+  703  ls
+  704  cd 20180120
+  705  pwd
+  706  ld -l
+  707  ls -l
+  708  cd ..
+  709  ls
+  710  ls -l
+  711  ll
+  712  vim The_Holy_Bible.txt 
+  713  head -n 10 The_Holy_Bible.txt 
+  714  file 
+  715  ps -elf
+  716  find . -name file*
+  717  ls
+  718  lfind . -name fil*
+  719  find . -name fil*
+  720  pwd
+  721  find /home/huazai/ -name file*
+  722  find . -name "fil*"
+  723  find . -name "fil?[1-3]"
+  724  find . -name *.c
+  725  find . name *.h
+  726  date
+  727  find . -mmin -5
+  728  find /usr/include/ -name stdio.h|xargs ls -l
+  729  head -n 20 >file2
+  730  head -n 20 The_Holy_Bible.txt >file2
+  731  cat file2
+  732  grep God file2
+  733  find /usr/include/ -name stdio.h
+  734  grep FILE /usr/include/stdio.h
+  735  ll
+  736  ll|grep ^-
+  737  cat main.c
+  738  grep \)$ main.c
+  739  cat file2
+  740  grep -c God file2
+  741  vim file2
+  742  grep -F$ file2
+  743  grep -F $ file2
+  744  grep -n God file2
+  745  grep prin *.c
+  746  grep prin.**.c
+  747  grep prin.**.c main.c
+  748  grep prin.* *.c
+  749  grep prin.*f *.c
+  750  grep f.p*.c
+  751  grep f.p *.c
+  752  grep f.p main.c
+  753  vim main.c
+  754  grep main *.c
+  755  find . -name *.c|xargs grep main
+  756  ll 
+  757  ls -l
+  758  ls
+  759  vim file2
+  760  cd dir
+  761  mkdir
+  762  mkdir dir
+  763  cp file2 ./dir/
+  764  cp file3 ./dir/
+  765  cd dir/
+  766  ls -l
+  767  tar cfv dir.tar file.*
+  768  tar cfv dir.tar file*
+  769  ll
+  770  vim main.c
+  771  ll
+  772  mkdir dir2
+  773  cd dir2/
+  774  ls
+  775  ll
+  776  tar xf ../dir.tar 
+  777  ls
+  778  cd ..
+  779  ls
+  780  tar rf *.tar main.c
+  781  ll
+  782  rm file[2-3] 
+  783  rm main.c 
+  784  ll
+  785  tar xfv dir.tar 
+  786  ll
+  787  ls
+  788  rm dir.tar 
+  789  ll
+  790  ls
+  791  tar cvzf dir1.tar.gz *
+  792  ll
+  793  rm file* main.c
+  794  ll
+  795  tar xf dir1.tar.gz 
+  796  ll
+  797  cd ..
+  798  ll
+  799  gzip -v The_Holy_Bible.txt 
+  800  ll
+  801  du -m  The_Holy_Bible.txt.gz 
+  802  du -k The_Holy_Bible.txt.gz 
+  803  gzip -d The_Holy_Bible.txt.gz 
+  804  ll
+  805  bzip -v The_Holy_Bible.txt 
+  806  bzip2 -v The_Holy_Bible.txt 
+  807  bzip2 -d The_Holy_Bible.txt.bz2 
+  808  ll
+  809  history
+  810  history >20180116history.txt

@@ -1,0 +1,26 @@
+#include <dirent.h>
+#include <stdio.h>
+int main(int argc,char* argv[])
+{
+	if(argc!=2)
+	{
+		perror("error args\n");
+		return -1;
+	}
+	DIR *dir;
+	dir=opendir(argv[1]);
+	if(NULL==dir)
+	{
+		perror("opendir");
+		return -1;
+	}
+	struct dirent *p;
+	while((p=readdir(dir))!=NULL)
+	{
+	}
+	close(dir);
+	return 0;
+}
+
+
+
